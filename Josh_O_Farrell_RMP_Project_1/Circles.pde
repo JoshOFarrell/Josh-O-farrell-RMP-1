@@ -7,9 +7,9 @@ int[] a2 = new int[circ];
 int[] b2 = new int[circ];
 
  
- colorMode(HSB, 100);
-}
 
-void draw() {
+
+
+{
   
 }
