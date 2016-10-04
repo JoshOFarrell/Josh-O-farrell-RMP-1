@@ -1,9 +1,14 @@
 Face myFace;
+
+Circles myCircles;
+
  
  void setup() {
  size(340,350);
  smooth();
  background(0);
+ 
+ myCircles = new Circles();
 }
 
 void draw() {
