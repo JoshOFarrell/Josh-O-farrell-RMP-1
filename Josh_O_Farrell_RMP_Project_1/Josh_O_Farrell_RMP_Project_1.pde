@@ -13,8 +13,8 @@ color bycolor;
  void setup() {
  size(740,350);
  smooth();
- background(0);
- f = createFont("Arial",30,true);
+ background(255);
+ f = createFont("Arial",50,true);
   colorMode (HSB, 100);
  
  bycolor = color(random(100), 30, 30);
@@ -30,9 +30,11 @@ color bycolor;
  
 void draw() {
   size(740,350);
- background(0);
+ background(255);
  smooth();
- 
+ textFont(f,30);
+ fill(255);
+ text("Faces!", 10, 100);
  
  for (int i = 0; i < circ; i++){
       fill(co[i]);
